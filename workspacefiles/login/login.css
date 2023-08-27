@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(45deg, rgb(255, 137, 137), rgb(255, 249, 158));
+    background-attachment: fixed;
+    font-family: monospace;
+}
+
+font {
+    font-size: 16px;
+}
+
+A {
+    color: rgb(81, 0, 255);
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+button {
+    width: 230px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.line1, .line2 {
+    height: 1px;
+    background: darkgray;
+}
+
+.box1 {
+    background: rgba(255, 255, 255, 0.76);
+    padding: 25px;
+    border-radius: 15px;
+    width: 330px;
+    height: 480px;
+    transform: translate(5%, 7%);
+}
+
+.entrar {
+    background: rgb(128, 160, 255);
+    font-family: monospace;
+}
+
+.entrar:hover {
+    background: rgb(166, 188, 255);
+    cursor: pointer;
+}

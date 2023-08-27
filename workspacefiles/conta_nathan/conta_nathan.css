@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(45deg, rgb(255, 137, 137), rgb(255, 249, 158));
+    background-attachment: fixed;
+    font-family: monospace;
+    padding: 50px;
+}
+
+button {
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+    font-family: monospace;
+    background: rgb(183, 234, 246);
+    font-size: 16px;
+}
+
+font {
+    font-size: 35px;
+}
+
+.nome {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.76);
+    width: 350px;
+    border-radius: 10px;
+}
+
+.conteudo {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.76);
+    width: 750px;
+    height: 350px;
+    border-radius: 10px;
+}
